@@ -6,7 +6,7 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
-//filter
-const name = people.filter((person) => {
+//for each
+people.forEach((person) => {
   console.log(person.name)
 })
