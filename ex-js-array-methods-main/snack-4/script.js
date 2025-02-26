@@ -12,3 +12,16 @@ const authors = posts.map((post) => {
   return post.author
 })
 console.log(authors)
+//for loop
+const newPost = []
+for (let i = 0; i < posts.length; i++) {
+  const thisPost = posts[i]
+  newPost.push(thisPost.author)
+}
+console.log(newPost)
+//for each
+newerPost = []
+posts.forEach((post) => {
+  newerPost.push(post.author)
+})
+console.log(newerPost)
