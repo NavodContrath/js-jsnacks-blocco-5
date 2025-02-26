@@ -26,3 +26,16 @@ const student = students.find((alumn) => {
   return alumn.id === 2
 })
 console.log(student)
+//for each
+students.forEach((student) => {
+  if (student.id === 2) {
+    console.log(student)
+  }
+})
+//for loop
+for (let i = 0; i < students.length; i++) {
+  const thisStudent = students[i]
+  if (thisStudent.id === 2) {
+    console.log(thisStudent)
+  }
+}
