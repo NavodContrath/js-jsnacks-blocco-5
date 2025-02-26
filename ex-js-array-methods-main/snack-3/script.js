@@ -7,3 +7,10 @@ const newNumbers = numbers.map((numb) => {
     return numb + 1
 })
 console.log(newNumbers)
+//for loop
+let newerNumbers = []
+for (let i = 0; i < numbers.length; i++) {
+    const thisNumber = numbers[i]
+    newerNumbers.push(thisNumber + 1)
+}
+console.log(newerNumbers)
