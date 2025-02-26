@@ -20,13 +20,28 @@ const longerZucchini = zucchine.filter((zucchina) => {
 
   return false
 })
-console.log(longerZucchini)
 const shorterZucchini = zucchine.filter((zucchina) => {
   if (zucchina.length < 15) {
     return true
   }
   return false
 })
-console.log(shorterZucchini);
-
+console.log(longerZucchini, shorterZucchini);
+//for each
+const longZucchini = []
+const shortZucchini = []
+zucchine.forEach((zucchina) => zucchina.length > 15 ? longZucchini.push(zucchina) : shortZucchini.push(zucchina))
+console.log(longZucchini, shortZucchini)
+//for loop
+const longlongZucchini = []
+const shortshortZucchini = []
+for (let i = 0; i < zucchine.length; i++) {
+  const thisZucchina = zucchine[i]
+  if (thisZucchina.length > 15) {
+    longlongZucchini.push(thisZucchina)
+  } else {
+    shortshortZucchini.push(thisZucchina)
+  }
+}
+console.log(longlongZucchini, shortshortZucchini)
 
