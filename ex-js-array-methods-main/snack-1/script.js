@@ -8,6 +8,6 @@ names.forEach((name) => {
 })
 //for loop
 for (let i = 0; i < names.length; i++) {
-    thisName = names[i]
+    const thisName = names[i]
     console.log(thisName)
 }
