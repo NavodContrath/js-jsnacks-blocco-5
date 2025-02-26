@@ -10,3 +10,8 @@ const people = [
 people.forEach((person) => {
   console.log(person.name)
 })
+//for loop
+for (let i = 0; i < people.length; i++) {
+  thisPerson = people[i]
+  console.log(thisPerson.name)
+}
