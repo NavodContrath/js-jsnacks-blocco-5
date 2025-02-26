@@ -14,3 +14,10 @@ for (let i = 0; i < numbers.length; i++) {
     newerNumbers.push(thisNumber + 1)
 }
 console.log(newerNumbers)
+//for each
+let newernewerNumbers = []
+numbers.forEach((numb) => {
+    newernewerNumbers.push(numb + 1)
+})
+console.log(newernewerNumbers)
+
