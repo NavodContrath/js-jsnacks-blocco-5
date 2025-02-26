@@ -12,6 +12,6 @@ people.forEach((person) => {
 })
 //for loop
 for (let i = 0; i < people.length; i++) {
-  thisPerson = people[i]
+  const thisPerson = people[i]
   console.log(thisPerson.name)
 }
